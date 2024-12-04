@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clocky</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid nav_div">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+                <p>Clocky</p>
+            </a>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="outside_box">
+        <main id="inside_box">
+            <article id="time">
+                <h1 id="setTime">23:00</h1>
+            </article>
+            
+            <article id="date">
+                <p id="setDate">30-11-2024</p>
+            </article>
+
+            <article id="color">
+                <input type="color" id="setColor" onchange="getColor()">
+            </article>
+        </main>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="card text-center">
+            <div class="card-header div_h2">
+                <h2>About Us</h2>
+            </div>
+            <div class="card-body">
+                <!-- <h5 class="card-title">Welcome to our baby site.</h5> -->
+                <p class="card-text ">
+                    "Empower your day with personalized timekeeping. Choose the hue of your moments with our customizable clock and date display. Your time, your colors, your journey."
+                </p>
+                <p class="contact_us">
+                    <a id="aboutmail" href="mailto:yahyayahya29@live.nl" class="btn btn-primary colora">Contact Us</a>
+                </p>
+                
+            </div>
+            <div class="card-footer text-body-secondary divpp">
+                © 2024 Copyright Reserved - <span class="divp">Coder Yahya</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
